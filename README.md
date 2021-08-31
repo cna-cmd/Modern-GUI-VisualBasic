@@ -1,4 +1,4 @@
-# MODERN-GUI-VISUAL-BASIC-BASE
+# MODERN-GUI-VISUAL-BASIC
 <p>
     <img src='./home.png' />
 </p>
