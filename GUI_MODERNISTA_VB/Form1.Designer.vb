@@ -41,9 +41,9 @@ Partial Class Form1
         Me.Panel10 = New System.Windows.Forms.Panel()
         Me.btnDashBoard = New System.Windows.Forms.Button()
         Me.PanelContenedor = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.tmOCULTAR = New System.Windows.Forms.Timer(Me.components)
         Me.tmMOSTRAR = New System.Windows.Forms.Timer(Me.components)
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.PanelBarraTitulo.SuspendLayout()
         Me.PanelMenu.SuspendLayout()
         CType(Me.btnMenu, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -56,8 +56,9 @@ Partial Class Form1
         Me.PanelBarraTitulo.Controls.Add(Me.btnCerrar)
         Me.PanelBarraTitulo.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelBarraTitulo.Location = New System.Drawing.Point(0, 0)
+        Me.PanelBarraTitulo.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.PanelBarraTitulo.Name = "PanelBarraTitulo"
-        Me.PanelBarraTitulo.Size = New System.Drawing.Size(1150, 40)
+        Me.PanelBarraTitulo.Size = New System.Drawing.Size(3067, 95)
         Me.PanelBarraTitulo.TabIndex = 0
         '
         'btnCerrar
@@ -70,9 +71,10 @@ Partial Class Form1
         Me.btnCerrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCerrar.ForeColor = System.Drawing.Color.White
         Me.btnCerrar.Image = CType(resources.GetObject("btnCerrar.Image"), System.Drawing.Image)
-        Me.btnCerrar.Location = New System.Drawing.Point(1110, 0)
+        Me.btnCerrar.Location = New System.Drawing.Point(2960, 0)
+        Me.btnCerrar.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.btnCerrar.Name = "btnCerrar"
-        Me.btnCerrar.Size = New System.Drawing.Size(40, 40)
+        Me.btnCerrar.Size = New System.Drawing.Size(107, 95)
         Me.btnCerrar.TabIndex = 4
         Me.btnCerrar.UseVisualStyleBackColor = True
         '
@@ -93,9 +95,10 @@ Partial Class Form1
         Me.PanelMenu.Controls.Add(Me.Panel10)
         Me.PanelMenu.Controls.Add(Me.btnDashBoard)
         Me.PanelMenu.Dock = System.Windows.Forms.DockStyle.Left
-        Me.PanelMenu.Location = New System.Drawing.Point(0, 40)
+        Me.PanelMenu.Location = New System.Drawing.Point(0, 95)
+        Me.PanelMenu.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.PanelMenu.Name = "PanelMenu"
-        Me.PanelMenu.Size = New System.Drawing.Size(220, 560)
+        Me.PanelMenu.Size = New System.Drawing.Size(587, 1336)
         Me.PanelMenu.TabIndex = 1
         '
         'btnMenu
@@ -103,9 +106,10 @@ Partial Class Form1
         Me.btnMenu.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnMenu.Image = CType(resources.GetObject("btnMenu.Image"), System.Drawing.Image)
-        Me.btnMenu.Location = New System.Drawing.Point(180, 5)
+        Me.btnMenu.Location = New System.Drawing.Point(463, 39)
+        Me.btnMenu.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.btnMenu.Name = "btnMenu"
-        Me.btnMenu.Size = New System.Drawing.Size(32, 32)
+        Me.btnMenu.Size = New System.Drawing.Size(85, 76)
         Me.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnMenu.TabIndex = 13
         Me.btnMenu.TabStop = False
@@ -113,9 +117,10 @@ Partial Class Form1
         'Panel6
         '
         Me.Panel6.BackColor = System.Drawing.Color.FromArgb(CType(CType(202, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel6.Location = New System.Drawing.Point(0, 401)
+        Me.Panel6.Location = New System.Drawing.Point(0, 956)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(5, 50)
+        Me.Panel6.Size = New System.Drawing.Size(13, 119)
         Me.Panel6.TabIndex = 11
         '
         'Button4
@@ -128,9 +133,10 @@ Partial Class Form1
         Me.Button4.ForeColor = System.Drawing.Color.White
         Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button4.Location = New System.Drawing.Point(0, 401)
+        Me.Button4.Location = New System.Drawing.Point(0, 956)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(220, 50)
+        Me.Button4.Size = New System.Drawing.Size(587, 119)
         Me.Button4.TabIndex = 10
         Me.Button4.Text = "  Empleados"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -140,9 +146,10 @@ Partial Class Form1
         'Panel5
         '
         Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(202, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel5.Location = New System.Drawing.Point(0, 345)
+        Me.Panel5.Location = New System.Drawing.Point(0, 823)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(5, 50)
+        Me.Panel5.Size = New System.Drawing.Size(13, 119)
         Me.Panel5.TabIndex = 9
         '
         'Button3
@@ -155,9 +162,10 @@ Partial Class Form1
         Me.Button3.ForeColor = System.Drawing.Color.White
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button3.Location = New System.Drawing.Point(0, 345)
+        Me.Button3.Location = New System.Drawing.Point(0, 823)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(220, 50)
+        Me.Button3.Size = New System.Drawing.Size(587, 119)
         Me.Button3.TabIndex = 8
         Me.Button3.Text = "  Compras"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -167,9 +175,10 @@ Partial Class Form1
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(202, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel4.Location = New System.Drawing.Point(0, 289)
+        Me.Panel4.Location = New System.Drawing.Point(0, 689)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(5, 50)
+        Me.Panel4.Size = New System.Drawing.Size(13, 119)
         Me.Panel4.TabIndex = 7
         '
         'Button1
@@ -182,9 +191,10 @@ Partial Class Form1
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(0, 289)
+        Me.Button1.Location = New System.Drawing.Point(0, 689)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(220, 50)
+        Me.Button1.Size = New System.Drawing.Size(587, 119)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "  Clientes"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -194,9 +204,10 @@ Partial Class Form1
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(202, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel3.Location = New System.Drawing.Point(0, 233)
+        Me.Panel3.Location = New System.Drawing.Point(0, 556)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(5, 50)
+        Me.Panel3.Size = New System.Drawing.Size(13, 119)
         Me.Panel3.TabIndex = 5
         '
         'Button2
@@ -209,9 +220,10 @@ Partial Class Form1
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button2.Location = New System.Drawing.Point(0, 233)
+        Me.Button2.Location = New System.Drawing.Point(0, 556)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(220, 50)
+        Me.Button2.Size = New System.Drawing.Size(587, 119)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "  Ventas"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -221,9 +233,10 @@ Partial Class Form1
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(202, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel2.Location = New System.Drawing.Point(0, 177)
+        Me.Panel2.Location = New System.Drawing.Point(0, 422)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(5, 50)
+        Me.Panel2.Size = New System.Drawing.Size(13, 119)
         Me.Panel2.TabIndex = 3
         '
         'btnProductos
@@ -236,9 +249,10 @@ Partial Class Form1
         Me.btnProductos.ForeColor = System.Drawing.Color.White
         Me.btnProductos.Image = CType(resources.GetObject("btnProductos.Image"), System.Drawing.Image)
         Me.btnProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnProductos.Location = New System.Drawing.Point(0, 177)
+        Me.btnProductos.Location = New System.Drawing.Point(0, 422)
+        Me.btnProductos.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.btnProductos.Name = "btnProductos"
-        Me.btnProductos.Size = New System.Drawing.Size(220, 50)
+        Me.btnProductos.Size = New System.Drawing.Size(587, 119)
         Me.btnProductos.TabIndex = 2
         Me.btnProductos.Text = "  Productos"
         Me.btnProductos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -248,9 +262,10 @@ Partial Class Form1
         'Panel10
         '
         Me.Panel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(202, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel10.Location = New System.Drawing.Point(0, 121)
+        Me.Panel10.Location = New System.Drawing.Point(0, 289)
+        Me.Panel10.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(5, 50)
+        Me.Panel10.Size = New System.Drawing.Size(13, 119)
         Me.Panel10.TabIndex = 1
         '
         'btnDashBoard
@@ -263,9 +278,10 @@ Partial Class Form1
         Me.btnDashBoard.ForeColor = System.Drawing.Color.White
         Me.btnDashBoard.Image = CType(resources.GetObject("btnDashBoard.Image"), System.Drawing.Image)
         Me.btnDashBoard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnDashBoard.Location = New System.Drawing.Point(0, 121)
+        Me.btnDashBoard.Location = New System.Drawing.Point(0, 289)
+        Me.btnDashBoard.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.btnDashBoard.Name = "btnDashBoard"
-        Me.btnDashBoard.Size = New System.Drawing.Size(220, 50)
+        Me.btnDashBoard.Size = New System.Drawing.Size(587, 119)
         Me.btnDashBoard.TabIndex = 0
         Me.btnDashBoard.Text = "  Dashboard"
         Me.btnDashBoard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -279,10 +295,22 @@ Partial Class Form1
         Me.PanelContenedor.Cursor = System.Windows.Forms.Cursors.Default
         Me.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelContenedor.ForeColor = System.Drawing.Color.FromArgb(CType(CType(202, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.PanelContenedor.Location = New System.Drawing.Point(220, 40)
+        Me.PanelContenedor.Location = New System.Drawing.Point(587, 95)
+        Me.PanelContenedor.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.PanelContenedor.Name = "PanelContenedor"
-        Me.PanelContenedor.Size = New System.Drawing.Size(930, 560)
+        Me.PanelContenedor.Size = New System.Drawing.Size(2480, 1336)
         Me.PanelContenedor.TabIndex = 2
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Tahoma", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(608, 491)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(1525, 193)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "GESTIÓN DE STOCK"
         '
         'tmOCULTAR
         '
@@ -292,28 +320,20 @@ Partial Class Form1
         '
         Me.tmMOSTRAR.Interval = 15
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Tahoma", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(228, 206)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(610, 77)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "GESTIÓN DE STOCK"
-        '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(16.0!, 31.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1150, 600)
+        Me.ClientSize = New System.Drawing.Size(3067, 1431)
         Me.Controls.Add(Me.PanelContenedor)
         Me.Controls.Add(Me.PanelMenu)
         Me.Controls.Add(Me.PanelBarraTitulo)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Name = "Form1"
         Me.Text = "Form1"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.PanelBarraTitulo.ResumeLayout(False)
         Me.PanelMenu.ResumeLayout(False)
         CType(Me.btnMenu, System.ComponentModel.ISupportInitialize).EndInit()
